@@ -1,0 +1,30 @@
+{
+  "name": "sehatapp",
+  "version": "1.0.0",
+  "description": "app for health services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turab-usmani/SehatApp.git"
+  },
+  "keywords": [
+    "App"
+  ],
+  "author": "Turab, Reyyan, Sarfaraz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turab-usmani/SehatApp/issues"
+  },
+  "homepage": "https://github.com/turab-usmani/SehatApp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "nodemon": "^3.1.9"
+  }
+}
