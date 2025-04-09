@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { View, TextInput, Button, Text, StyleSheet } from 'react-native';
 
-export default function LoginScreen({ navigation, setIsLoggedIn }) {
+export default function LoginScreen({ navigation, route }) {
+  const { setIsLoggedIn } = route.params;
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
