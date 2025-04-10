@@ -9,3 +9,12 @@ node_modules/
 
 # Ignore Mac system files
 .DS_Store
+
+# ignore expo folder
+.expo/
+
+# Ignore vscode folder
+.vscode/
+
+#Ignore git folder
+.git/
